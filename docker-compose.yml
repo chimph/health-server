@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+
+  db:
+    image: timescale/timescaledb:latest-pg15
+    container_name: health-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-health}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-healthdata}
+    volumes:
+      - health_db:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+
+  api:
+    build: ./api
+    container_name: health-api
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-health}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-healthdata}
+    ports:
+      - "8000:8000"
+
+volumes:
+  health_db:
