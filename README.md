@@ -18,6 +18,12 @@ iPhone (Health Auto Export)
 - **Database:** TimescaleDB (PostgreSQL time-series extension)
 - **Containerization:** Docker & Docker Compose
 
+## Requirements
+
+- [Docker](https://docs.docker.com/get-docker/) and Docker Compose
+- [Health Auto Export](https://www.healthyapps.dev) iOS app (Premium or free trial for Automations)
+- Network path from your iPhone to the server (e.g. same LAN or [Tailscale](https://tailscale.com))
+
 ## Quick Start
 
 ### 1. Clone and configure
