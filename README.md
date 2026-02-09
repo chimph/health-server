@@ -55,6 +55,12 @@ curl http://localhost:8000/health
 # {"status": "ok"}
 ```
 
+### 4. Connect to the database
+
+```bash
+docker exec -it health-db psql -U health healthdata
+```
+
 ## Setting Up Health Auto Export
 
 [Health Auto Export](https://www.healthyapps.dev) is an iOS app that sends Apple Health data to a REST API on a schedule. A Premium subscription (or free trial) is required for the Automations feature.
@@ -120,14 +126,20 @@ metrics(
 
 ## Example Queries
 
+Replace `'Pacific/Auckland'` with your [IANA timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) in the queries below. The database stores all timestamps in UTC, so `AT TIME ZONE` converts to your local day boundary.
+
 ```sql
 -- Total steps today
 SELECT SUM(value) FROM metrics
-WHERE metric = 'step_count' AND time >= CURRENT_DATE;
+WHERE metric = 'step_count'
+  AND time >= (CURRENT_DATE AT TIME ZONE 'Pacific/Auckland');
 
 -- Steps by hour
-SELECT date_trunc('hour', time), SUM(value) FROM metrics
-WHERE metric = 'step_count' AND time >= CURRENT_DATE
+SELECT date_trunc('hour', time AT TIME ZONE 'Pacific/Auckland') AS hour,
+       SUM(value)
+FROM metrics
+WHERE metric = 'step_count'
+  AND time >= (CURRENT_DATE AT TIME ZONE 'Pacific/Auckland')
 GROUP BY 1 ORDER BY 1;
 
 -- List all tracked metrics
