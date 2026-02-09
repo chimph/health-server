@@ -126,20 +126,18 @@ metrics(
 
 ## Example Queries
 
-Replace `'Pacific/Auckland'` with your [IANA timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) in the queries below. The database stores all timestamps in UTC, so `AT TIME ZONE` converts to your local day boundary.
+The database stores all timestamps in UTC. Set your session timezone first so that `CURRENT_DATE` and time-based functions use your local time. Replace `'Pacific/Auckland'` with your [IANA timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
 ```sql
+SET timezone = 'Pacific/Auckland';
+
 -- Total steps today
 SELECT SUM(value) FROM metrics
-WHERE metric = 'step_count'
-  AND time >= (CURRENT_DATE AT TIME ZONE 'Pacific/Auckland');
+WHERE metric = 'step_count' AND time >= CURRENT_DATE;
 
 -- Steps by hour
-SELECT date_trunc('hour', time AT TIME ZONE 'Pacific/Auckland') AS hour,
-       SUM(value)
-FROM metrics
-WHERE metric = 'step_count'
-  AND time >= (CURRENT_DATE AT TIME ZONE 'Pacific/Auckland')
+SELECT date_trunc('hour', time) AS hour, SUM(value) FROM metrics
+WHERE metric = 'step_count' AND time >= CURRENT_DATE
 GROUP BY 1 ORDER BY 1;
 
 -- List all tracked metrics
