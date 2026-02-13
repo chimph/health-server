@@ -40,7 +40,7 @@ async def ingest(request: Request):
             INSERT INTO metrics
             (time, source, metric, value, unit, metadata)
             VALUES %s
-            ON CONFLICT DO NOTHING
+            ON CONFLICT (time, source, metric) DO NOTHING
         """, rows)
 
     conn.commit()
