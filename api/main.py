@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 import psycopg2
-from psycopg2.extras import execute_values
+from psycopg2.extras import execute_values, Json
 from datetime import datetime
 import os
 
@@ -32,20 +32,41 @@ async def ingest(request: Request):
 
             rows.append((time, source, name, value, unit, None))
 
-    if not rows:
-        return {"inserted": 0}
+    workout_rows = []
+    for workout in payload.get("data", {}).get("workouts", []):
+        energy = workout.get("activeEnergyBurned", {})
+        dist = workout.get("distance", {})
+        workout_rows.append((
+            workout.get("id"),
+            workout.get("name"),
+            parse_date(workout["start"]),
+            parse_date(workout["end"]) if workout.get("end") else None,
+            workout.get("duration"),
+            energy.get("qty") if isinstance(energy, dict) else energy,
+            dist.get("qty") if isinstance(dist, dict) else dist,
+            Json(workout),
+        ))
 
     with conn.cursor() as cur:
-        execute_values(cur, """
-            INSERT INTO metrics
-            (time, source, metric, value, unit, metadata)
-            VALUES %s
-            ON CONFLICT (time, source, metric) DO NOTHING
-        """, rows)
+        if rows:
+            execute_values(cur, """
+                INSERT INTO metrics
+                (time, source, metric, value, unit, metadata)
+                VALUES %s
+                ON CONFLICT (time, source, metric) DO NOTHING
+            """, rows)
+
+        if workout_rows:
+            execute_values(cur, """
+                INSERT INTO workouts
+                (id, name, start, "end", duration, active_energy_burned, distance, detail)
+                VALUES %s
+                ON CONFLICT (id) DO NOTHING
+            """, workout_rows)
 
     conn.commit()
 
-    return {"inserted": len(rows)}
+    return {"inserted_metrics": len(rows), "inserted_workouts": len(workout_rows)}
 
 @app.get("/health")
 def health():

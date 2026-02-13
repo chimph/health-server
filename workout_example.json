@@ -1,0 +1,2138 @@
+{
+  "data" : {
+    "workouts" : [
+      {
+        "heartRateData" : [
+          {
+            "Max" : 99,
+            "Min" : 91,
+            "source" : "Bluetooth Device",
+            "date" : "2026-02-12 20:21:40 +1300",
+            "units" : "count\/min",
+            "Avg" : 95.507256185153722
+          },
+          {
+            "Max" : 105,
+            "source" : "Bluetooth Device",
+            "date" : "2026-02-12 20:22:40 +1300",
+            "Min" : 99,
+            "units" : "count\/min",
+            "Avg" : 101.88711114530156
+          },
+          {
+            "Max" : 104,
+            "Min" : 99,
+            "source" : "Bluetooth Device",
+            "units" : "count\/min",
+            "Avg" : 101.69440388471254,
+            "date" : "2026-02-12 20:23:40 +1300"
+          },
+          {
+            "Max" : 107,
+            "date" : "2026-02-12 20:24:40 +1300",
+            "Min" : 100,
+            "units" : "count\/min",
+            "source" : "Bluetooth Device",
+            "Avg" : 102.26175560997613
+          },
+          {
+            "Min" : 98,
+            "date" : "2026-02-12 20:25:40 +1300",
+            "units" : "count\/min",
+            "Avg" : 101.2197231935392,
+            "Max" : 106,
+            "source" : "Bluetooth Device"
+          },
+          {
+            "units" : "count\/min",
+            "Max" : 107,
+            "source" : "Bluetooth Device",
+            "date" : "2026-02-12 20:26:40 +1300",
+            "Avg" : 102.9895478406937,
+            "Min" : 101
+          },
+          {
+            "Avg" : 104.81253718156621,
+            "units" : "count\/min",
+            "Max" : 109,
+            "source" : "Bluetooth Device",
+            "date" : "2026-02-12 20:27:40 +1300",
+            "Min" : 102
+          },
+          {
+            "Max" : 108,
+            "Avg" : 105.19794622283131,
+            "source" : "Bluetooth Device",
+            "Min" : 104,
+            "units" : "count\/min",
+            "date" : "2026-02-12 20:28:40 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Max" : 108,
+            "date" : "2026-02-12 20:29:40 +1300",
+            "units" : "count\/min",
+            "Min" : 102,
+            "Avg" : 105.92989173903044
+          },
+          {
+            "Avg" : 107.77778177192906,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Max" : 110,
+            "units" : "count\/min",
+            "date" : "2026-02-12 20:30:40 +1300",
+            "Min" : 105
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Avg" : 107.88118611616736,
+            "units" : "count\/min",
+            "Min" : 106,
+            "date" : "2026-02-12 20:31:40 +1300",
+            "Max" : 109
+          },
+          {
+            "Avg" : 106.39287822235818,
+            "units" : "count\/min",
+            "Max" : 109,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "date" : "2026-02-12 20:32:40 +1300",
+            "Min" : 104
+          },
+          {
+            "units" : "count\/min",
+            "Max" : 111,
+            "date" : "2026-02-12 20:33:40 +1300",
+            "Min" : 104,
+            "Avg" : 106.87493880112653,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device"
+          }
+        ],
+        "temperature" : {
+          "units" : "degC",
+          "qty" : 21.700744628903863
+        },
+        "end" : "2026-02-12 20:34:20 +1300",
+        "distance" : {
+          "units" : "km",
+          "qty" : 1.0731142506301403
+        },
+        "id" : "1449B188-3B8E-4B69-9952-F6BD643ED2F6",
+        "heartRate" : {
+          "avg" : {
+            "units" : "count\/min",
+            "qty" : 103.87899676264507
+          },
+          "max" : {
+            "qty" : 111,
+            "units" : "count\/min"
+          },
+          "min" : {
+            "qty" : 91,
+            "units" : "count\/min"
+          }
+        },
+        "name" : "Indoor Walk",
+        "humidity" : {
+          "qty" : 67,
+          "units" : "%"
+        },
+        "intensity" : {
+          "qty" : 4.5044253483092751,
+          "units" : "kcal\/hr·kg"
+        },
+        "start" : "2026-02-12 20:21:40 +1300",
+        "maxHeartRate" : {
+          "qty" : 111,
+          "units" : "count\/min"
+        },
+        "activeEnergy" : [
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ",
+            "date" : "2026-02-12 20:21:40 +1300",
+            "qty" : 11.769396436219777
+          },
+          {
+            "date" : "2026-02-12 20:22:40 +1300",
+            "qty" : 17.681767546280156,
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 17.896386457368056,
+            "units" : "kJ",
+            "date" : "2026-02-12 20:23:40 +1300"
+          },
+          {
+            "date" : "2026-02-12 20:24:40 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ",
+            "qty" : 17.419343928081972
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ",
+            "qty" : 18.610862495564664,
+            "date" : "2026-02-12 20:25:40 +1300"
+          },
+          {
+            "units" : "kJ",
+            "qty" : 18.784674574222603,
+            "date" : "2026-02-12 20:26:40 +1300",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:27:40 +1300",
+            "qty" : 21.281414273653731
+          },
+          {
+            "qty" : 19.00855002789557,
+            "date" : "2026-02-12 20:28:40 +1300",
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "date" : "2026-02-12 20:29:40 +1300",
+            "qty" : 20.076799882896029,
+            "units" : "kJ"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "date" : "2026-02-12 20:30:40 +1300",
+            "units" : "kJ",
+            "qty" : 18.773481280205871
+          },
+          {
+            "date" : "2026-02-12 20:31:40 +1300",
+            "qty" : 21.717225208529268,
+            "source" : "Ryan’s Apple Watch|Withings",
+            "units" : "kJ"
+          },
+          {
+            "units" : "kJ",
+            "qty" : 22.191210482058775,
+            "source" : "Ryan’s Apple Watch|Withings",
+            "date" : "2026-02-12 20:32:40 +1300"
+          },
+          {
+            "qty" : 16.352366656017942,
+            "source" : "Ryan’s Apple Watch|Withings",
+            "units" : "kJ",
+            "date" : "2026-02-12 20:33:40 +1300"
+          }
+        ],
+        "avgHeartRate" : {
+          "units" : "count\/min",
+          "qty" : 103.87899676264507
+        },
+        "duration" : 759.69906997680664,
+        "speed" : {
+          "units" : "km\/hr",
+          "qty" : 5.0851862993414585
+        },
+        "stepCount" : [
+          {
+            "units" : "count",
+            "date" : "2026-02-12 20:21:40 +1300",
+            "qty" : 67.639296010121058,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-12 20:22:40 +1300",
+            "qty" : 113.0988308955743,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:23:40 +1300",
+            "units" : "count",
+            "qty" : 112.46694905188463
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 108.08403971871756,
+            "date" : "2026-02-12 20:24:40 +1300",
+            "units" : "count"
+          },
+          {
+            "qty" : 104.37998444612535,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:25:40 +1300",
+            "units" : "count"
+          },
+          {
+            "date" : "2026-02-12 20:26:40 +1300",
+            "units" : "count",
+            "qty" : 107.63172783852363,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "qty" : 111.48885545629108,
+            "date" : "2026-02-12 20:27:40 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:28:40 +1300",
+            "qty" : 108.06568533714224,
+            "units" : "count"
+          },
+          {
+            "date" : "2026-02-12 20:29:40 +1300",
+            "units" : "count",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 102.26319383715486
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count",
+            "date" : "2026-02-12 20:30:40 +1300",
+            "qty" : 110.44163509731196
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count",
+            "date" : "2026-02-12 20:31:40 +1300",
+            "qty" : 112.54880387561663
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count",
+            "qty" : 106.29371587918374,
+            "date" : "2026-02-12 20:32:40 +1300"
+          },
+          {
+            "qty" : 51.62425510660578,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count",
+            "date" : "2026-02-12 20:33:40 +1300"
+          }
+        ],
+        "stepCadence" : {
+          "qty" : 103.93802161088051,
+          "units" : "count\/min"
+        },
+        "walkingAndRunningDistance" : [
+          {
+            "units" : "km",
+            "qty" : 0.055703678565823651,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:21:40 +1300"
+          },
+          {
+            "units" : "km",
+            "qty" : 0.085728043279020963,
+            "date" : "2026-02-12 20:22:40 +1300",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "qty" : 0.085708542730536991,
+            "units" : "km",
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:23:40 +1300"
+          },
+          {
+            "date" : "2026-02-12 20:24:40 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 0.079161018946185019,
+            "units" : "km"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "km",
+            "qty" : 0.087057035545297812,
+            "date" : "2026-02-12 20:25:40 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "km",
+            "qty" : 0.08687233660851941,
+            "date" : "2026-02-12 20:26:40 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "km",
+            "date" : "2026-02-12 20:27:40 +1300",
+            "qty" : 0.090952628002754929
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:28:40 +1300",
+            "qty" : 0.090473811743657456,
+            "units" : "km"
+          },
+          {
+            "date" : "2026-02-12 20:29:40 +1300",
+            "units" : "km",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 0.078907745563788448
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:30:40 +1300",
+            "qty" : 0.083831051365612502,
+            "units" : "km"
+          },
+          {
+            "qty" : 0.098907263292373385,
+            "date" : "2026-02-12 20:31:40 +1300",
+            "units" : "km",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-12 20:32:40 +1300",
+            "qty" : 0.090408146875915377,
+            "units" : "km",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "qty" : 0.059402948110654372,
+            "date" : "2026-02-12 20:33:40 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "km"
+          }
+        ],
+        "metadata" : {
+
+        },
+        "isIndoor" : true,
+        "heartRateRecovery" : [
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 104,
+            "units" : "count\/min",
+            "Min" : 104,
+            "Max" : 104,
+            "date" : "2026-02-12 20:34:24 +1300"
+          },
+          {
+            "date" : "2026-02-12 20:34:25 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 104,
+            "Min" : 104,
+            "units" : "count\/min",
+            "Avg" : 104
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 101,
+            "Max" : 101,
+            "Min" : 101,
+            "date" : "2026-02-12 20:34:32 +1300",
+            "units" : "count\/min"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:34:39 +1300",
+            "Max" : 102,
+            "Avg" : 102,
+            "Min" : 102,
+            "units" : "count\/min"
+          },
+          {
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 102,
+            "Min" : 102,
+            "date" : "2026-02-12 20:34:40 +1300",
+            "Max" : 102
+          },
+          {
+            "Max" : 105,
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 105,
+            "units" : "count\/min",
+            "Avg" : 105,
+            "date" : "2026-02-12 20:34:45 +1300"
+          },
+          {
+            "Avg" : 106,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 106,
+            "date" : "2026-02-12 20:34:52 +1300",
+            "Max" : 106
+          },
+          {
+            "Avg" : 105,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min",
+            "Max" : 105,
+            "date" : "2026-02-12 20:34:59 +1300",
+            "Min" : 105
+          },
+          {
+            "units" : "count\/min",
+            "date" : "2026-02-12 20:35:03 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 106,
+            "Avg" : 106,
+            "Max" : 106
+          },
+          {
+            "Min" : 100,
+            "Avg" : 100,
+            "Max" : 100,
+            "units" : "count\/min",
+            "date" : "2026-02-12 20:35:09 +1300",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Avg" : 97,
+            "Min" : 97,
+            "units" : "count\/min",
+            "Max" : 97,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:35:13 +1300"
+          },
+          {
+            "Min" : 98,
+            "Avg" : 98,
+            "Max" : 98,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min",
+            "date" : "2026-02-12 20:35:15 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:35:24 +1300",
+            "Min" : 100,
+            "Avg" : 100,
+            "Max" : 100,
+            "units" : "count\/min"
+          },
+          {
+            "date" : "2026-02-12 20:35:29 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min",
+            "Max" : 99,
+            "Min" : 99,
+            "Avg" : 99
+          },
+          {
+            "Avg" : 100,
+            "Max" : 100,
+            "date" : "2026-02-12 20:35:31 +1300",
+            "units" : "count\/min",
+            "Min" : 100,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Avg" : 98,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:35:35 +1300",
+            "Max" : 98,
+            "Min" : 98
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 96,
+            "Max" : 96,
+            "date" : "2026-02-12 20:35:40 +1300",
+            "Avg" : 96,
+            "units" : "count\/min"
+          },
+          {
+            "date" : "2026-02-12 20:35:49 +1300",
+            "Min" : 95,
+            "Max" : 95,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min",
+            "Avg" : 95
+          },
+          {
+            "units" : "count\/min",
+            "date" : "2026-02-12 20:35:51 +1300",
+            "Min" : 98,
+            "Max" : 98,
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 98
+          },
+          {
+            "date" : "2026-02-12 20:35:56 +1300",
+            "units" : "count\/min",
+            "Min" : 101,
+            "Avg" : 101,
+            "Max" : 101,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Max" : 99,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:36:00 +1300",
+            "Avg" : 99,
+            "units" : "count\/min",
+            "Min" : 99
+          },
+          {
+            "Avg" : 100,
+            "units" : "count\/min",
+            "Min" : 100,
+            "Max" : 100,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-12 20:36:05 +1300"
+          },
+          {
+            "Avg" : 98,
+            "date" : "2026-02-12 20:36:14 +1300",
+            "units" : "count\/min",
+            "Min" : 98,
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 98
+          },
+          {
+            "date" : "2026-02-12 20:36:18 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min",
+            "Avg" : 99,
+            "Min" : 99,
+            "Max" : 99
+          }
+        ],
+        "location" : "Indoor",
+        "activeEnergyBurned" : {
+          "qty" : 238.01914213222796,
+          "units" : "kJ"
+        }
+      },
+      {
+        "isIndoor" : true,
+        "heartRateData" : [
+          {
+            "date" : "2026-02-11 20:16:27 +1300",
+            "Max" : 88,
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 83,
+            "Avg" : 85.5,
+            "units" : "count\/min"
+          },
+          {
+            "Max" : 90,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Min" : 86,
+            "units" : "count\/min",
+            "Avg" : 87.672132294186028,
+            "date" : "2026-02-11 20:17:27 +1300"
+          },
+          {
+            "Avg" : 88.60999561308455,
+            "Min" : 87,
+            "Max" : 91,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "date" : "2026-02-11 20:18:27 +1300"
+          },
+          {
+            "date" : "2026-02-11 20:19:27 +1300",
+            "Avg" : 91.846153654466363,
+            "Max" : 96,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Min" : 88,
+            "units" : "count\/min"
+          },
+          {
+            "units" : "count\/min",
+            "Max" : 97,
+            "Min" : 93,
+            "date" : "2026-02-11 20:20:27 +1300",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Avg" : 94.380004493086105
+          },
+          {
+            "Max" : 97,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Min" : 93,
+            "units" : "count\/min",
+            "Avg" : 94.78846486063388,
+            "date" : "2026-02-11 20:21:27 +1300"
+          },
+          {
+            "units" : "count\/min",
+            "Max" : 101,
+            "Min" : 92,
+            "date" : "2026-02-11 20:22:27 +1300",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Avg" : 95.849993821851072
+          },
+          {
+            "Avg" : 98.145832755032615,
+            "units" : "count\/min",
+            "Min" : 94,
+            "date" : "2026-02-11 20:23:27 +1300",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Max" : 102
+          },
+          {
+            "units" : "count\/min",
+            "Max" : 100,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Min" : 97,
+            "Avg" : 98.580000970787026,
+            "date" : "2026-02-11 20:24:27 +1300"
+          },
+          {
+            "Max" : 99,
+            "Avg" : 97.83000146806215,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "date" : "2026-02-11 20:25:27 +1300",
+            "Min" : 96
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Avg" : 99.117646306510366,
+            "units" : "count\/min",
+            "Max" : 103,
+            "Min" : 97,
+            "date" : "2026-02-11 20:26:27 +1300"
+          },
+          {
+            "Avg" : 112.83393681435768,
+            "date" : "2026-02-11 20:27:27 +1300",
+            "Min" : 103,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Max" : 119,
+            "units" : "count\/min"
+          },
+          {
+            "units" : "count\/min",
+            "Avg" : 122.66000227409633,
+            "Max" : 125.00000000000001,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "date" : "2026-02-11 20:28:27 +1300",
+            "Min" : 120
+          },
+          {
+            "Min" : 126,
+            "Max" : 130,
+            "Avg" : 127.28572241992657,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "units" : "count\/min",
+            "date" : "2026-02-11 20:29:27 +1300"
+          },
+          {
+            "Min" : 127,
+            "units" : "count\/min",
+            "date" : "2026-02-11 20:30:27 +1300",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Max" : 130,
+            "Avg" : 128.63999942292875
+          },
+          {
+            "Avg" : 129.47000085284731,
+            "units" : "count\/min",
+            "Max" : 132,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "date" : "2026-02-11 20:31:27 +1300",
+            "Min" : 128
+          },
+          {
+            "date" : "2026-02-11 20:32:27 +1300",
+            "Min" : 113,
+            "Max" : 131,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Avg" : 121.01001833692747
+          },
+          {
+            "units" : "count\/min",
+            "Min" : 107,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Max" : 113,
+            "date" : "2026-02-11 20:33:27 +1300",
+            "Avg" : 110.84314191577307
+          },
+          {
+            "Min" : 108,
+            "Avg" : 110.4497229792096,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "date" : "2026-02-11 20:34:27 +1300",
+            "Max" : 113
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Avg" : 109.6428440225219,
+            "units" : "count\/min",
+            "date" : "2026-02-11 20:35:27 +1300",
+            "Max" : 112,
+            "Min" : 108
+          },
+          {
+            "Min" : 107,
+            "Avg" : 108.15000111342492,
+            "date" : "2026-02-11 20:36:27 +1300",
+            "Max" : 109,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "units" : "count\/min"
+          },
+          {
+            "date" : "2026-02-11 20:37:27 +1300",
+            "Max" : 127,
+            "Min" : 110,
+            "Avg" : 120.70191624929269,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device"
+          },
+          {
+            "date" : "2026-02-11 20:38:27 +1300",
+            "Avg" : 128.71428282841887,
+            "Max" : 133,
+            "Min" : 126,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device"
+          },
+          {
+            "units" : "count\/min",
+            "Max" : 129,
+            "date" : "2026-02-11 20:39:27 +1300",
+            "Avg" : 116.77886470408906,
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Min" : 108
+          },
+          {
+            "Avg" : 107.81176811572868,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch|Bluetooth Device",
+            "Max" : 111,
+            "Min" : 105,
+            "date" : "2026-02-11 20:40:27 +1300"
+          }
+        ],
+        "distance" : {
+          "qty" : 2.6663068693445529,
+          "units" : "km"
+        },
+        "speed" : {
+          "qty" : 6.4712948628084765,
+          "units" : "km\/hr"
+        },
+        "location" : "Indoor",
+        "activeEnergy" : [
+          {
+            "qty" : 15.769617778862832,
+            "units" : "kJ",
+            "date" : "2026-02-11 20:16:27 +1300",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:17:27 +1300",
+            "qty" : 17.483620137351043
+          },
+          {
+            "units" : "kJ",
+            "date" : "2026-02-11 20:18:27 +1300",
+            "qty" : 18.373292805602635,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 18.695908906139564,
+            "units" : "kJ",
+            "date" : "2026-02-11 20:19:27 +1300"
+          },
+          {
+            "date" : "2026-02-11 20:20:27 +1300",
+            "qty" : 21.978338339014531,
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-11 20:21:27 +1300",
+            "qty" : 20.168518890031816,
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "units" : "kJ",
+            "date" : "2026-02-11 20:22:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 21.684509220957622
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:23:27 +1300",
+            "units" : "kJ",
+            "qty" : 22.420306390757641
+          },
+          {
+            "date" : "2026-02-11 20:24:27 +1300",
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 22.396244420252522
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:25:27 +1300",
+            "qty" : 22.727335585407392,
+            "units" : "kJ"
+          },
+          {
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 22.866522146229499,
+            "date" : "2026-02-11 20:26:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:27:27 +1300",
+            "qty" : 42.19162262046288,
+            "units" : "kJ"
+          },
+          {
+            "units" : "kJ",
+            "date" : "2026-02-11 20:28:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 46.320755262119484
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "units" : "kJ",
+            "qty" : 46.825896787687633,
+            "date" : "2026-02-11 20:29:27 +1300"
+          },
+          {
+            "qty" : 46.657497850439263,
+            "source" : "Ryan’s Apple Watch|Withings",
+            "date" : "2026-02-11 20:30:27 +1300",
+            "units" : "kJ"
+          },
+          {
+            "units" : "kJ",
+            "qty" : 46.37678645653159,
+            "date" : "2026-02-11 20:31:27 +1300",
+            "source" : "Ryan’s Apple Watch|Withings"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "units" : "kJ",
+            "qty" : 32.862561803763185,
+            "date" : "2026-02-11 20:32:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "qty" : 22.859435327424318,
+            "date" : "2026-02-11 20:33:27 +1300",
+            "units" : "kJ"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "units" : "kJ",
+            "qty" : 23.421097367583084,
+            "date" : "2026-02-11 20:34:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "date" : "2026-02-11 20:35:27 +1300",
+            "units" : "kJ",
+            "qty" : 23.70867006365479
+          },
+          {
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch|Withings",
+            "qty" : 24.064177539451393,
+            "date" : "2026-02-11 20:36:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "units" : "kJ",
+            "qty" : 46.620351026665908,
+            "date" : "2026-02-11 20:37:27 +1300"
+          },
+          {
+            "qty" : 47.135091825585462,
+            "date" : "2026-02-11 20:38:27 +1300",
+            "source" : "Ryan’s Apple Watch|Withings",
+            "units" : "kJ"
+          },
+          {
+            "qty" : 30.921670836409472,
+            "date" : "2026-02-11 20:39:27 +1300",
+            "source" : "Ryan’s Apple Watch|Withings",
+            "units" : "kJ"
+          },
+          {
+            "date" : "2026-02-11 20:40:27 +1300",
+            "source" : "Ryan’s Apple Watch|Withings",
+            "qty" : 17.109132718533228,
+            "units" : "kJ"
+          }
+        ],
+        "stepCount" : [
+          {
+            "qty" : 108.55732937415478,
+            "date" : "2026-02-11 20:23:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count"
+          },
+          {
+            "units" : "count",
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:24:27 +1300",
+            "qty" : 112.67071378233506
+          },
+          {
+            "units" : "count",
+            "date" : "2026-02-11 20:25:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 111.8198046128856
+          },
+          {
+            "date" : "2026-02-11 20:26:27 +1300",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "units" : "count",
+            "qty" : 109.9392113887322
+          },
+          {
+            "units" : "count",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 138.61773582564928,
+            "date" : "2026-02-11 20:27:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "units" : "count",
+            "date" : "2026-02-11 20:28:27 +1300",
+            "qty" : 142.95330585263662
+          },
+          {
+            "units" : "count",
+            "qty" : 141.43032015577822,
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "date" : "2026-02-11 20:29:27 +1300"
+          },
+          {
+            "units" : "count",
+            "date" : "2026-02-11 20:30:27 +1300",
+            "qty" : 141.19089882068249,
+            "source" : "Ryan’s Apple Watch|iPhone"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "units" : "count",
+            "date" : "2026-02-11 20:31:27 +1300",
+            "qty" : 139.54644823562234
+          },
+          {
+            "date" : "2026-02-11 20:32:27 +1300",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 117.26948597195187,
+            "units" : "count"
+          },
+          {
+            "units" : "count",
+            "date" : "2026-02-11 20:33:27 +1300",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 113.71974746026646
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 116.01099060933976,
+            "date" : "2026-02-11 20:34:27 +1300",
+            "units" : "count"
+          },
+          {
+            "date" : "2026-02-11 20:35:27 +1300",
+            "units" : "count",
+            "qty" : 114.30091707771501,
+            "source" : "Ryan’s Apple Watch|iPhone"
+          },
+          {
+            "date" : "2026-02-11 20:36:27 +1300",
+            "qty" : 124.23576580100217,
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "units" : "count"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 140.22465103050243,
+            "date" : "2026-02-11 20:37:27 +1300",
+            "units" : "count"
+          },
+          {
+            "units" : "count",
+            "date" : "2026-02-11 20:38:27 +1300",
+            "qty" : 132.15343924628493,
+            "source" : "Ryan’s Apple Watch|iPhone"
+          },
+          {
+            "date" : "2026-02-11 20:39:27 +1300",
+            "qty" : 91.948474188070847,
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "units" : "count"
+          },
+          {
+            "date" : "2026-02-11 20:40:27 +1300",
+            "units" : "count",
+            "qty" : 66.410760566389996,
+            "source" : "Ryan’s Apple Watch|iPhone"
+          }
+        ],
+        "stepCadence" : {
+          "qty" : 87.495622685619196,
+          "units" : "count\/min"
+        },
+        "start" : "2026-02-11 20:16:27 +1300",
+        "intensity" : {
+          "units" : "kcal\/hr·kg",
+          "qty" : 6.2587489389221034
+        },
+        "duration" : 1483.2742029428482,
+        "heartRateRecovery" : [
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 103,
+            "units" : "count\/min",
+            "Max" : 103,
+            "Min" : 103,
+            "date" : "2026-02-11 20:41:20 +1300"
+          },
+          {
+            "Min" : 104,
+            "date" : "2026-02-11 20:41:21 +1300",
+            "Avg" : 104,
+            "units" : "count\/min",
+            "Max" : 104,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:41:26 +1300",
+            "Max" : 106,
+            "Min" : 106,
+            "Avg" : 106,
+            "units" : "count\/min"
+          },
+          {
+            "Max" : 102,
+            "date" : "2026-02-11 20:41:32 +1300",
+            "units" : "count\/min",
+            "Avg" : 102,
+            "Min" : 102,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-11 20:41:40 +1300",
+            "Avg" : 108,
+            "units" : "count\/min",
+            "Min" : 108,
+            "Max" : 108,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Avg" : 110,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 110,
+            "Max" : 110,
+            "date" : "2026-02-11 20:41:45 +1300"
+          },
+          {
+            "Avg" : 109,
+            "Max" : 109,
+            "date" : "2026-02-11 20:41:48 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min",
+            "Min" : 109
+          },
+          {
+            "Max" : 110,
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 110,
+            "date" : "2026-02-11 20:41:53 +1300",
+            "Avg" : 110,
+            "units" : "count\/min"
+          },
+          {
+            "Avg" : 105,
+            "units" : "count\/min",
+            "date" : "2026-02-11 20:42:00 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 105,
+            "Max" : 105
+          },
+          {
+            "date" : "2026-02-11 20:42:01 +1300",
+            "Min" : 105,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 105,
+            "Max" : 105
+          },
+          {
+            "Max" : 104,
+            "Avg" : 104,
+            "date" : "2026-02-11 20:42:06 +1300",
+            "Min" : 104,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min"
+          },
+          {
+            "Max" : 101,
+            "Min" : 101,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:42:13 +1300",
+            "units" : "count\/min",
+            "Avg" : 101
+          },
+          {
+            "Avg" : 102,
+            "Min" : 102,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:42:16 +1300",
+            "Max" : 102,
+            "units" : "count\/min"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 103,
+            "Min" : 103,
+            "Avg" : 103,
+            "units" : "count\/min",
+            "date" : "2026-02-11 20:42:21 +1300"
+          },
+          {
+            "date" : "2026-02-11 20:42:28 +1300",
+            "Max" : 101,
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 101,
+            "units" : "count\/min",
+            "Min" : 101
+          },
+          {
+            "date" : "2026-02-11 20:42:31 +1300",
+            "units" : "count\/min",
+            "Min" : 101,
+            "Avg" : 101,
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 101
+          },
+          {
+            "date" : "2026-02-11 20:42:40 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 98,
+            "Avg" : 98,
+            "units" : "count\/min",
+            "Max" : 98
+          },
+          {
+            "Max" : 99,
+            "Avg" : 99,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:42:41 +1300",
+            "units" : "count\/min",
+            "Min" : 99
+          },
+          {
+            "units" : "count\/min",
+            "Max" : 100,
+            "Min" : 100,
+            "Avg" : 100,
+            "date" : "2026-02-11 20:42:50 +1300",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Max" : 101,
+            "date" : "2026-02-11 20:42:55 +1300",
+            "units" : "count\/min",
+            "Min" : 101,
+            "Avg" : 101,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Min" : 103,
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 103,
+            "date" : "2026-02-11 20:42:58 +1300",
+            "Avg" : 103,
+            "units" : "count\/min"
+          },
+          {
+            "date" : "2026-02-11 20:43:01 +1300",
+            "Min" : 103,
+            "Max" : 103,
+            "Avg" : 103,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min"
+          },
+          {
+            "Avg" : 101,
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 101,
+            "date" : "2026-02-11 20:43:10 +1300",
+            "Min" : 101,
+            "units" : "count\/min"
+          }
+        ],
+        "name" : "Indoor Walk",
+        "id" : "7F255BCA-AA13-4CD1-9714-81CF8F25BD45",
+        "end" : "2026-02-11 20:41:11 +1300",
+        "temperature" : {
+          "qty" : 18.037170410153919,
+          "units" : "degC"
+        },
+        "maxHeartRate" : {
+          "units" : "count\/min",
+          "qty" : 133
+        },
+        "avgHeartRate" : {
+          "qty" : 107.49249793148971,
+          "units" : "count\/min"
+        },
+        "heartRate" : {
+          "max" : {
+            "units" : "count\/min",
+            "qty" : 133
+          },
+          "avg" : {
+            "units" : "count\/min",
+            "qty" : 107.49249793148971
+          },
+          "min" : {
+            "qty" : 83,
+            "units" : "count\/min"
+          }
+        },
+        "walkingAndRunningDistance" : [
+          {
+            "date" : "2026-02-11 20:16:27 +1300",
+            "qty" : 0.082382093035521797,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "km"
+          },
+          {
+            "qty" : 0.083306113794791956,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:17:27 +1300",
+            "units" : "km"
+          },
+          {
+            "units" : "km",
+            "date" : "2026-02-11 20:18:27 +1300",
+            "qty" : 0.090180754564984839,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "date" : "2026-02-11 20:19:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "km",
+            "qty" : 0.086608006964757706
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "km",
+            "qty" : 0.09123415447105622,
+            "date" : "2026-02-11 20:20:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:21:27 +1300",
+            "qty" : 0.084811546539095589,
+            "units" : "km"
+          },
+          {
+            "units" : "km",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 0.093225668192518638,
+            "date" : "2026-02-11 20:22:27 +1300"
+          },
+          {
+            "qty" : 0.093116511809159336,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-11 20:23:27 +1300",
+            "units" : "km"
+          },
+          {
+            "date" : "2026-02-11 20:24:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "km",
+            "qty" : 0.098081173140693645
+          },
+          {
+            "date" : "2026-02-11 20:25:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "km",
+            "qty" : 0.094211016108581722
+          },
+          {
+            "qty" : 0.093489363499866709,
+            "units" : "km",
+            "date" : "2026-02-11 20:26:27 +1300",
+            "source" : "Ryan’s Apple Watch|iPhone"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 0.14542498548920207,
+            "units" : "km",
+            "date" : "2026-02-11 20:27:27 +1300"
+          },
+          {
+            "date" : "2026-02-11 20:28:27 +1300",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 0.1537038689322992,
+            "units" : "km"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 0.14728412065469748,
+            "units" : "km",
+            "date" : "2026-02-11 20:29:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 0.15481138363307276,
+            "units" : "km",
+            "date" : "2026-02-11 20:30:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "units" : "km",
+            "date" : "2026-02-11 20:31:27 +1300",
+            "qty" : 0.15001999859659548
+          },
+          {
+            "qty" : 0.091535877765297244,
+            "date" : "2026-02-11 20:32:27 +1300",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "units" : "km"
+          },
+          {
+            "date" : "2026-02-11 20:33:27 +1300",
+            "qty" : 0.098690990757489064,
+            "units" : "km",
+            "source" : "Ryan’s Apple Watch|iPhone"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "date" : "2026-02-11 20:34:27 +1300",
+            "units" : "km",
+            "qty" : 0.10018375756645545
+          },
+          {
+            "qty" : 0.097486454887658489,
+            "date" : "2026-02-11 20:35:27 +1300",
+            "units" : "km",
+            "source" : "Ryan’s Apple Watch|iPhone"
+          },
+          {
+            "qty" : 0.10857619914897054,
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "date" : "2026-02-11 20:36:27 +1300",
+            "units" : "km"
+          },
+          {
+            "qty" : 0.15136051228566089,
+            "date" : "2026-02-11 20:37:27 +1300",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "units" : "km"
+          },
+          {
+            "units" : "km",
+            "qty" : 0.14086733747638283,
+            "date" : "2026-02-11 20:38:27 +1300",
+            "source" : "Ryan’s Apple Watch|iPhone"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 0.0818711838869568,
+            "date" : "2026-02-11 20:39:27 +1300",
+            "units" : "km"
+          },
+          {
+            "date" : "2026-02-11 20:40:27 +1300",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 0.05384379614278649,
+            "units" : "km"
+          }
+        ],
+        "metadata" : {
+
+        },
+        "humidity" : {
+          "units" : "%",
+          "qty" : 77
+        },
+        "activeEnergyBurned" : {
+          "qty" : 719.97620656605602,
+          "units" : "kJ"
+        }
+      },
+      {
+        "name" : "Indoor Cycling",
+        "isIndoor" : true,
+        "stepCadence" : {
+          "units" : "count\/min",
+          "qty" : 2.5333709342797213
+        },
+        "metadata" : {
+
+        },
+        "stepCount" : [
+          {
+            "source" : "iPhone",
+            "date" : "2026-02-09 18:52:27 +1300",
+            "qty" : 9,
+            "units" : "count"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "units" : "count",
+            "date" : "2026-02-09 18:56:27 +1300",
+            "qty" : 10.197512576734223
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "date" : "2026-02-09 18:57:27 +1300",
+            "units" : "count",
+            "qty" : 11.817747463121492
+          },
+          {
+            "qty" : 11.817747463121494,
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "date" : "2026-02-09 18:58:27 +1300",
+            "units" : "count"
+          },
+          {
+            "units" : "count",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 11.817747463121494,
+            "date" : "2026-02-09 18:59:27 +1300"
+          },
+          {
+            "qty" : 11.817747463121492,
+            "units" : "count",
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "date" : "2026-02-09 19:00:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|iPhone",
+            "qty" : 11.817747463121494,
+            "units" : "count",
+            "date" : "2026-02-09 19:01:27 +1300"
+          }
+        ],
+        "avgHeartRate" : {
+          "qty" : 142.8116056606419,
+          "units" : "count\/min"
+        },
+        "activeEnergyBurned" : {
+          "units" : "kJ",
+          "qty" : 1096.4883280000031
+        },
+        "humidity" : {
+          "qty" : 69,
+          "units" : "%"
+        },
+        "duration" : 1854.1205040216446,
+        "end" : "2026-02-09 19:02:22 +1300",
+        "heartRate" : {
+          "min" : {
+            "qty" : 90,
+            "units" : "count\/min"
+          },
+          "avg" : {
+            "qty" : 142.8116056606419,
+            "units" : "count\/min"
+          },
+          "max" : {
+            "qty" : 174,
+            "units" : "count\/min"
+          }
+        },
+        "id" : "60F98A7F-E93F-47E3-BF4D-0787089C01AC",
+        "start" : "2026-02-09 18:31:27 +1300",
+        "intensity" : {
+          "units" : "kcal\/hr·kg",
+          "qty" : 7.3426891625956214
+        },
+        "heartRateData" : [
+          {
+            "date" : "2026-02-09 18:31:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 96,
+            "Min" : 90,
+            "Avg" : 93.232323232323239,
+            "units" : "count\/min"
+          },
+          {
+            "date" : "2026-02-09 18:32:27 +1300",
+            "Min" : 96,
+            "Avg" : 101.0969387755102,
+            "units" : "count\/min",
+            "Max" : 108,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Avg" : 109.34653465346534,
+            "Min" : 104,
+            "units" : "count\/min",
+            "date" : "2026-02-09 18:33:27 +1300",
+            "Max" : 118,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "units" : "count\/min",
+            "Min" : 112,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:34:27 +1300",
+            "Max" : 121,
+            "Avg" : 117.45054945054945
+          },
+          {
+            "date" : "2026-02-09 18:35:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 119,
+            "Min" : 113,
+            "Avg" : 115.8989898989899,
+            "units" : "count\/min"
+          },
+          {
+            "date" : "2026-02-09 18:36:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 122.48000000000002,
+            "Max" : 130,
+            "Min" : 115,
+            "units" : "count\/min"
+          },
+          {
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:37:27 +1300",
+            "Min" : 122.99999999999999,
+            "Max" : 131,
+            "Avg" : 127.64705882352943
+          },
+          {
+            "units" : "count\/min",
+            "Avg" : 126.31660231660233,
+            "Max" : 137,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:38:27 +1300",
+            "Min" : 116
+          },
+          {
+            "units" : "count\/min",
+            "Max" : 148,
+            "date" : "2026-02-09 18:39:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 137,
+            "Avg" : 140.92659446450062
+          },
+          {
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 139,
+            "date" : "2026-02-09 18:40:27 +1300",
+            "Avg" : 143.718085106383,
+            "Max" : 148
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 149,
+            "Min" : 138,
+            "units" : "count\/min",
+            "date" : "2026-02-09 18:41:27 +1300",
+            "Avg" : 142.64356435643563
+          },
+          {
+            "units" : "count\/min",
+            "Avg" : 148.95631067961168,
+            "date" : "2026-02-09 18:42:27 +1300",
+            "Min" : 139,
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 158
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 158,
+            "Min" : 144,
+            "units" : "count\/min",
+            "date" : "2026-02-09 18:43:27 +1300",
+            "Avg" : 153.14999999999998
+          },
+          {
+            "Max" : 158,
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 152.88764044943821,
+            "Min" : 147,
+            "units" : "count\/min",
+            "date" : "2026-02-09 18:44:27 +1300"
+          },
+          {
+            "date" : "2026-02-09 18:45:27 +1300",
+            "Max" : 155,
+            "Avg" : 148.35436893203882,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min",
+            "Min" : 142
+          },
+          {
+            "Avg" : 134.09782608695653,
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 139,
+            "Min" : 130,
+            "date" : "2026-02-09 18:46:27 +1300",
+            "units" : "count\/min"
+          },
+          {
+            "Min" : 131,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:47:27 +1300",
+            "Max" : 145,
+            "Avg" : 136.73039215686276,
+            "units" : "count\/min"
+          },
+          {
+            "Avg" : 150.00543478260872,
+            "date" : "2026-02-09 18:48:27 +1300",
+            "Max" : 154,
+            "Min" : 145,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Min" : 147,
+            "Avg" : 152.83168316831683,
+            "Max" : 159,
+            "units" : "count\/min",
+            "date" : "2026-02-09 18:49:27 +1300",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Min" : 146,
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 149.37499999999997,
+            "Max" : 152,
+            "units" : "count\/min",
+            "date" : "2026-02-09 18:50:27 +1300"
+          },
+          {
+            "units" : "count\/min",
+            "date" : "2026-02-09 18:51:27 +1300",
+            "Min" : 157,
+            "Max" : 163,
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 160.32051652028034
+          },
+          {
+            "Max" : 164,
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 150,
+            "units" : "count\/min",
+            "date" : "2026-02-09 18:52:27 +1300",
+            "Avg" : 157.62376237623764
+          },
+          {
+            "Max" : 165,
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 158,
+            "date" : "2026-02-09 18:53:27 +1300",
+            "units" : "count\/min",
+            "Avg" : 160.89999999999998
+          },
+          {
+            "Max" : 163,
+            "date" : "2026-02-09 18:54:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 150,
+            "Avg" : 158.08415841584159,
+            "units" : "count\/min"
+          },
+          {
+            "date" : "2026-02-09 18:55:27 +1300",
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 167,
+            "Min" : 154,
+            "Avg" : 160.10101010101013
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 157.99484536082471,
+            "Min" : 152,
+            "date" : "2026-02-09 18:56:27 +1300",
+            "units" : "count\/min",
+            "Max" : 162
+          },
+          {
+            "date" : "2026-02-09 18:57:27 +1300",
+            "Max" : 159,
+            "Avg" : 156.27083333333331,
+            "Min" : 152,
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "Avg" : 166.980198019802,
+            "date" : "2026-02-09 18:58:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 174,
+            "Min" : 158,
+            "units" : "count\/min"
+          },
+          {
+            "units" : "count\/min",
+            "Max" : 173,
+            "Avg" : 166.6875,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:59:27 +1300",
+            "Min" : 159
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 158,
+            "Min" : 154,
+            "Avg" : 155.75757575757575,
+            "units" : "count\/min",
+            "date" : "2026-02-09 19:00:27 +1300"
+          },
+          {
+            "Min" : 159,
+            "Max" : 161,
+            "Avg" : 159.29347826086956,
+            "date" : "2026-02-09 19:01:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min"
+          }
+        ],
+        "heartRateRecovery" : [
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 158,
+            "Max" : 158,
+            "Avg" : 158,
+            "units" : "count\/min",
+            "date" : "2026-02-09 19:02:24 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 158,
+            "date" : "2026-02-09 19:02:26 +1300",
+            "Min" : 158,
+            "Max" : 158,
+            "units" : "count\/min"
+          },
+          {
+            "date" : "2026-02-09 19:02:32 +1300",
+            "Min" : 155,
+            "units" : "count\/min",
+            "Avg" : 155,
+            "Max" : 155,
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 149,
+            "Min" : 149,
+            "Avg" : 149,
+            "date" : "2026-02-09 19:02:44 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 140,
+            "units" : "count\/min",
+            "Max" : 140,
+            "Avg" : 140,
+            "date" : "2026-02-09 19:02:59 +1300"
+          },
+          {
+            "Avg" : 140,
+            "date" : "2026-02-09 19:03:02 +1300",
+            "units" : "count\/min",
+            "Max" : 140,
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 140
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 136,
+            "Min" : 136,
+            "Avg" : 136,
+            "date" : "2026-02-09 19:03:17 +1300",
+            "units" : "count\/min"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 135,
+            "Min" : 135,
+            "date" : "2026-02-09 19:03:22 +1300",
+            "units" : "count\/min",
+            "Avg" : 135
+          },
+          {
+            "date" : "2026-02-09 19:03:28 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Avg" : 136,
+            "Min" : 136,
+            "Max" : 136,
+            "units" : "count\/min"
+          },
+          {
+            "Max" : 136,
+            "units" : "count\/min",
+            "date" : "2026-02-09 19:03:30 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 136,
+            "Avg" : 136
+          },
+          {
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 131,
+            "Avg" : 131,
+            "date" : "2026-02-09 19:03:38 +1300",
+            "Min" : 131
+          },
+          {
+            "Avg" : 131,
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 131,
+            "units" : "count\/min",
+            "date" : "2026-02-09 19:03:41 +1300",
+            "Min" : 131
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 130,
+            "date" : "2026-02-09 19:03:45 +1300",
+            "Min" : 130,
+            "Avg" : 130,
+            "units" : "count\/min"
+          },
+          {
+            "Avg" : 131,
+            "date" : "2026-02-09 19:04:06 +1300",
+            "units" : "count\/min",
+            "source" : "Ryan’s Apple Watch",
+            "Max" : 131,
+            "Min" : 131
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "Min" : 129,
+            "units" : "count\/min",
+            "Avg" : 129,
+            "Max" : 129,
+            "date" : "2026-02-09 19:04:12 +1300"
+          },
+          {
+            "date" : "2026-02-09 19:04:15 +1300",
+            "Min" : 131,
+            "Max" : 131,
+            "Avg" : 131,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "count\/min"
+          }
+        ],
+        "location" : "Indoor",
+        "temperature" : {
+          "qty" : 17.965557098386341,
+          "units" : "degC"
+        },
+        "maxHeartRate" : {
+          "qty" : 174,
+          "units" : "count\/min"
+        },
+        "activeEnergy" : [
+          {
+            "qty" : 10.009656687246762,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:31:27 +1300",
+            "units" : "kJ"
+          },
+          {
+            "date" : "2026-02-09 18:32:27 +1300",
+            "qty" : 15.059668607649279,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ"
+          },
+          {
+            "date" : "2026-02-09 18:33:27 +1300",
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 19.605596251745641
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 23.010929111084184,
+            "date" : "2026-02-09 18:34:27 +1300",
+            "units" : "kJ"
+          },
+          {
+            "qty" : 22.110137780230971,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ",
+            "date" : "2026-02-09 18:35:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:36:27 +1300",
+            "qty" : 25.52767273134808,
+            "units" : "kJ"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:37:27 +1300",
+            "qty" : 28.491544304951113,
+            "units" : "kJ"
+          },
+          {
+            "date" : "2026-02-09 18:38:27 +1300",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 26.449479909476494,
+            "units" : "kJ"
+          },
+          {
+            "date" : "2026-02-09 18:39:27 +1300",
+            "qty" : 35.752120510248787,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ"
+          },
+          {
+            "units" : "kJ",
+            "qty" : 36.647270739440245,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:40:27 +1300"
+          },
+          {
+            "qty" : 36.213350556931005,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:41:27 +1300",
+            "units" : "kJ"
+          },
+          {
+            "units" : "kJ",
+            "qty" : 38.392813404956932,
+            "date" : "2026-02-09 18:42:27 +1300",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "qty" : 40.142727662081199,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:43:27 +1300",
+            "units" : "kJ"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ",
+            "qty" : 40.987588965849334,
+            "date" : "2026-02-09 18:44:27 +1300"
+          },
+          {
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:45:27 +1300",
+            "qty" : 39.366070610639973
+          },
+          {
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:46:27 +1300",
+            "qty" : 31.395305117743863
+          },
+          {
+            "date" : "2026-02-09 18:47:27 +1300",
+            "qty" : 32.210406232962242,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ"
+          },
+          {
+            "qty" : 39.773919261423991,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:48:27 +1300",
+            "units" : "kJ"
+          },
+          {
+            "date" : "2026-02-09 18:49:27 +1300",
+            "qty" : 41.470200999302612,
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch"
+          },
+          {
+            "qty" : 39.055968502641605,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ",
+            "date" : "2026-02-09 18:50:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 44.551780534325218,
+            "units" : "kJ",
+            "date" : "2026-02-09 18:51:27 +1300"
+          },
+          {
+            "qty" : 42.558187324674719,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ",
+            "date" : "2026-02-09 18:52:27 +1300"
+          },
+          {
+            "date" : "2026-02-09 18:53:27 +1300",
+            "qty" : 45.347312786692505,
+            "source" : "Ryan’s Apple Watch",
+            "units" : "kJ"
+          },
+          {
+            "units" : "kJ",
+            "qty" : 42.579533278847336,
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:54:27 +1300"
+          },
+          {
+            "units" : "kJ",
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 44.649208805103434,
+            "date" : "2026-02-09 18:55:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:56:27 +1300",
+            "units" : "kJ",
+            "qty" : 43.154498082445436
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "qty" : 42.233415452337098,
+            "units" : "kJ",
+            "date" : "2026-02-09 18:57:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch",
+            "date" : "2026-02-09 18:58:27 +1300",
+            "units" : "kJ",
+            "qty" : 48.20835047998186
+          },
+          {
+            "units" : "kJ",
+            "qty" : 48.528000834203574,
+            "source" : "Ryan’s Apple Watch|Withings",
+            "date" : "2026-02-09 18:59:27 +1300"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "date" : "2026-02-09 19:00:27 +1300",
+            "qty" : 42.015036603219961,
+            "units" : "kJ"
+          },
+          {
+            "source" : "Ryan’s Apple Watch|Withings",
+            "units" : "kJ",
+            "date" : "2026-02-09 19:01:27 +1300",
+            "qty" : 34.794820604327043
+          }
+        ]
+      }
+    ]
+  }
+}
