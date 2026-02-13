@@ -61,7 +61,7 @@ async def ingest(request: Request):
                 INSERT INTO workouts
                 (id, name, start, "end", duration, active_energy_burned, distance, detail)
                 VALUES %s
-                ON CONFLICT (id) DO NOTHING
+                ON CONFLICT (id, start) DO NOTHING
             """, workout_rows)
 
     conn.commit()
