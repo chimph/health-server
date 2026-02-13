@@ -8,7 +8,9 @@ iPhone (Health Auto Export)
    POST /metrics
         |
   FastAPI webhook
-        |
+     /        \
+metrics    workouts
+     \        /
     TimescaleDB
 ```
 
@@ -88,6 +90,7 @@ If you're using Tailscale or another private network, use that IP (e.g. `http://
 ### Step 4 — Choose metrics and schedule
 
 - **Health Metrics:** Select the metrics you want to export (or choose all).
+- **Workouts:** Enable workout export to send workout data (duration, energy, distance, heart rate details, etc.).
 - **Export Format:** JSON
 - **Time Interval:** Set how often data is pushed (as low as every 5 minutes).
 - **Batching:** Enable this to prevent memory issues on your iPhone when exporting large amounts of data.
@@ -106,12 +109,12 @@ This keeps the automation running reliably without needing the app open.
 
 | Method | Path | Description |
 |--------|------|-------------|
-| `POST` | `/metrics` | Ingest Health Auto Export JSON payload |
+| `POST` | `/metrics` | Ingest Health Auto Export JSON payload (metrics and workouts) |
 | `GET` | `/health` | Health check |
 
 ## Database Schema
 
-All metrics are stored in a single TimescaleDB hypertable:
+Data is stored across two TimescaleDB hypertables:
 
 ```sql
 metrics(
@@ -122,7 +125,20 @@ metrics(
   unit        TEXT,
   metadata    JSONB
 )
+
+workouts(
+  id                    TEXT,            -- Apple Health UUID
+  name                  TEXT,            -- e.g. "Indoor Walk", "Indoor Cycling"
+  start                 TIMESTAMPTZ,
+  "end"                 TIMESTAMPTZ,
+  duration              DOUBLE PRECISION,-- seconds
+  active_energy_burned  DOUBLE PRECISION,-- kJ
+  distance              DOUBLE PRECISION,-- km
+  detail                JSONB            -- full workout payload (heart rate, steps, etc.)
+)
 ```
+
+Both tables use `ON CONFLICT ... DO NOTHING` for deduplication, so repeated exports from Health Auto Export are safe.
 
 ## Example Queries
 
@@ -142,4 +158,13 @@ GROUP BY 1 ORDER BY 1;
 
 -- List all tracked metrics
 SELECT DISTINCT metric FROM metrics;
+
+-- Recent workouts
+SELECT name, start, duration / 60 AS minutes, active_energy_burned AS kj, distance AS km
+FROM workouts ORDER BY start DESC LIMIT 10;
+
+-- Weekly workout summary
+SELECT name, COUNT(*) AS sessions, ROUND(SUM(duration) / 60) AS total_min
+FROM workouts WHERE start >= CURRENT_DATE - INTERVAL '7 days'
+GROUP BY name ORDER BY sessions DESC;
 ```
