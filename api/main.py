@@ -53,7 +53,7 @@ async def ingest(request: Request):
                 INSERT INTO metrics
                 (time, source, metric, value, unit, metadata)
                 VALUES %s
-                ON CONFLICT (time, source, metric) DO NOTHING
+                ON CONFLICT (time, metric) DO NOTHING
             """, rows)
 
         if workout_rows:
