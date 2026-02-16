@@ -5,7 +5,7 @@ CREATE TABLE metrics (
   value DOUBLE PRECISION,
   unit TEXT,
   metadata JSONB,
-  UNIQUE (time, source, metric)
+  UNIQUE (time, metric)
 );
 
 SELECT create_hypertable('metrics', 'time', if_not_exists => TRUE);
