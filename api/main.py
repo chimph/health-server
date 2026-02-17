@@ -8,7 +8,8 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 
 app = FastAPI()
 
-conn = psycopg2.connect(DATABASE_URL)
+def get_conn():
+    return psycopg2.connect(DATABASE_URL)
 
 def parse_date(d):
     return datetime.strptime(d, "%Y-%m-%d %H:%M:%S %z")
@@ -47,24 +48,31 @@ async def ingest(request: Request):
             Json(workout),
         ))
 
-    with conn.cursor() as cur:
-        if rows:
-            execute_values(cur, """
-                INSERT INTO metrics
-                (time, source, metric, value, unit, metadata)
-                VALUES %s
-                ON CONFLICT (time, metric) DO NOTHING
-            """, rows)
+    conn = get_conn()
+    try:
+        with conn.cursor() as cur:
+            if rows:
+                execute_values(cur, """
+                    INSERT INTO metrics
+                    (time, source, metric, value, unit, metadata)
+                    VALUES %s
+                    ON CONFLICT (time, metric) DO NOTHING
+                """, rows)
 
-        if workout_rows:
-            execute_values(cur, """
-                INSERT INTO workouts
-                (id, name, start, "end", duration, active_energy_burned, distance, detail)
-                VALUES %s
-                ON CONFLICT (id, start) DO NOTHING
-            """, workout_rows)
+            if workout_rows:
+                execute_values(cur, """
+                    INSERT INTO workouts
+                    (id, name, start, "end", duration, active_energy_burned, distance, detail)
+                    VALUES %s
+                    ON CONFLICT (id, start) DO NOTHING
+                """, workout_rows)
 
-    conn.commit()
+        conn.commit()
+    except Exception:
+        conn.rollback()
+        raise
+    finally:
+        conn.close()
 
     return {"inserted_metrics": len(rows), "inserted_workouts": len(workout_rows)}
 
